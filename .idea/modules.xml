@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DyDemo/DyDemo.iml" filepath="$PROJECT_DIR$/DyDemo/DyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DyLoad.iml" filepath="$PROJECT_DIR$/DyLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DyDemo/app.iml" filepath="$PROJECT_DIR$/DyDemo/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dyloadlib/dyloadlib.iml" filepath="$PROJECT_DIR$/dyloadlib/dyloadlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugindemo/plugindemo.iml" filepath="$PROJECT_DIR$/plugindemo/plugindemo.iml" />
+    </modules>
+  </component>
+</project>
