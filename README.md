@@ -1,5 +1,5 @@
 # DyLoad
-One kind of Android Plugin
+One kind of Android Plugin Framework
 
 ## Project Structure
 1.DyDemo
