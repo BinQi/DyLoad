@@ -94,7 +94,7 @@ public class MainActivity extends DyActivityPlugin {
 
     @Override
     public void onBackPressed() {
-
+        mThat.getActivity().finish();
     }
 
     @Override
