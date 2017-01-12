@@ -4,9 +4,8 @@ import android.app.Service;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.IBinder;
+import android.widget.Toast;
 
-import com.jerry.dyloadlib.dyload.DyManager;
-import com.jerry.dyloadlib.dyload.core.DyIntent;
 import com.jerry.dyloadlib.dyload.core.proxy.service.DyServiceContext;
 import com.jerry.dyloadlib.dyload.core.proxy.service.DyServicePlugin;
 
@@ -31,9 +30,7 @@ public class MainService extends DyServicePlugin {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        DyIntent dyIntent = new DyIntent(mThat.getDyContext().getPluginPackageName(), MainActivity.class);
-        dyIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        DyManager.getInstance(mThat).startPluginActivity(mThat, dyIntent);
+        Toast.makeText(mThat, "Plugin service is running", Toast.LENGTH_SHORT).show();
         return Service.START_STICKY;
     }
 

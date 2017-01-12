@@ -11,11 +11,11 @@ import com.jerry.dyloadlib.dyload.pl.PluginAPI;
  */
 public class PluginEntrance extends AbsEntrance {
 
-    private DemoApi mApi;
+    private PluginDemoApi mApi;
 
     public PluginEntrance(DyContext context) {
         super(context);
-        mApi = new DemoApi(context);
+        mApi = new PluginDemoApi(context);
     }
 
     /**

@@ -11,11 +11,11 @@ import com.jerry.plugindemo.MainActivity;
 /**
  * Created by wubinqi on 17-1-6.
  */
-public class DemoApi extends PluginAPI {
+public class PluginDemoApi extends PluginAPI {
 
     private DyContext mContext;
 
-    public DemoApi(DyContext context) {
+    public PluginDemoApi(DyContext context) {
         mContext = context;
     }
 
