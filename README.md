@@ -20,7 +20,7 @@ This is the apk of app module "plugindemo". For convenience, I put it in the dir
 
 Simply run
 
-    execute following command in console
+execute following command in console
     $ ./gradlew plugindemo:buildFile
 
-    then run "DyDemo"(Alt+Shift+X)
+then run "DyDemo"(Alt+Shift+X)
