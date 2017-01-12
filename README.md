@@ -14,3 +14,13 @@ This is the demo of plugin package.
 ### File Directions
 :dyloadlib/src/main/assets/pluginpkg
 This is the apk of app module "plugindemo". For convenience, I put it in the directory of assets.
+
+
+## Usage
+
+Simply run
+
+    execute following command in console
+    $ ./gradlew plugindemo:buildFile
+
+    then run "DyDemo"(Alt+Shift+X)
