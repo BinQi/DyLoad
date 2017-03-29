@@ -4,9 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DyDemo/DyDemo.iml" filepath="$PROJECT_DIR$/DyDemo/DyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DyLoad.iml" filepath="$PROJECT_DIR$/DyLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Plugins.iml" filepath="$PROJECT_DIR$/Demo/Plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/DyDemo/app.iml" filepath="$PROJECT_DIR$/DyDemo/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dyloadlib/dyloadlib.iml" filepath="$PROJECT_DIR$/dyloadlib/dyloadlib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugindemo/plugindemo.iml" filepath="$PROJECT_DIR$/plugindemo/plugindemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/plugindemo/plugindemo.iml" filepath="$PROJECT_DIR$/Demo/plugindemo/plugindemo.iml" />
     </modules>
   </component>
 </project>

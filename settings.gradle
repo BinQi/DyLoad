@@ -1,1 +1,1 @@
-include ':DyDemo', ':plugindemo', ':dyloadlib'
+include ':DyDemo', ':Plugins:plugindemo', ':dyloadlib'
