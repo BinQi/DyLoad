@@ -60,17 +60,17 @@ public abstract class BaseProxyActivity extends Activity implements IActivityAtt
 
     @Override
     public AssetManager getAssets() {
-        if (mDyContext != null) {
-            return mDyContext.getAssets();
-        }
+//        if (mDyContext != null) {
+//            return mDyContext.getAssets();
+//        }
         return super.getAssets();
     }
 
     @Override
     public Resources getResources() {
-        if (mDyContext != null) {
-            return mDyContext.getResources();
-        }
+//        if (mDyContext != null) {
+//            return mDyContext.getResources();
+//        }
         return super.getResources();
     }
 
