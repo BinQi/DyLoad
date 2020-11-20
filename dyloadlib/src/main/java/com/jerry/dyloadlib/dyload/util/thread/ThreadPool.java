@@ -6,9 +6,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * 线程池
- *
- * @author chenchongji
- * 2016年3月15日
  */
 public class ThreadPool {
     public static final int THREADPOOL_CAPACITY_DEF = 2; //默认线程池容量

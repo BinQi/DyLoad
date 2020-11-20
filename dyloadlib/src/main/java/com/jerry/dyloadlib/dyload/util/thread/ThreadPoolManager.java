@@ -16,11 +16,6 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- *
- * @author chenchongji
- * 2016年3月15日
- */
 public class ThreadPoolManager {
 
 	private static HashMap<String, ThreadPoolManager> sThreadPoolManagerhHashMap = new HashMap<String, ThreadPoolManager>();

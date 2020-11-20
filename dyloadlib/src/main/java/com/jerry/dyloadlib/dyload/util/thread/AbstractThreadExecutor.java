@@ -4,8 +4,6 @@ package com.jerry.dyloadlib.dyload.util.thread;
 /**
  * 抽象的线程执行器
  *
- * @author chenchongji
- * 2016年3月15日
  */
 public abstract class AbstractThreadExecutor {
 
